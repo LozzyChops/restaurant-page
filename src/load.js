@@ -21,6 +21,7 @@ function initLoad() {
 
     const myImage = new Image();
     myImage.src = pic;
+    myImage.setAttribute('alt', 'A hungry cat');
 
     const text = document.createElement('p');
     const quote = document.createElement('q');
@@ -31,7 +32,7 @@ function initLoad() {
     content.appendChild(navigation);
     content.appendChild(myImage);
     text.appendChild(quote);
-    text.append('- Caterday Magazine');
+    text.append(' - Caterday Magazine');
     content.appendChild(text);
 };
 
