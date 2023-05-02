@@ -4,21 +4,6 @@ import pic2 from './cat_paw.jpg';
 function initMenu() {
     const content = document.getElementById('content');
 
-    content.className = 'flex-container full-screen';
-
-    const header = document.createElement('h1');
-    header.setAttribute('id', 'restaurant-name');
-    header.textContent = 'Puurfect Plate';
-
-    const navigation = document.createElement('ul');
-    navigation.className = 'flex-container navigation';
-    const homeItem = document.createElement('li');
-    const menuItem = document.createElement('li');
-    const contactItem = document.createElement('li');
-    homeItem.textContent = 'HOME';
-    menuItem.textContent = 'MENU';
-    contactItem.textContent = 'CONTACT';
-
     const menu = document.createElement('div');
     menu.setAttribute('id', 'menu');
 
@@ -84,10 +69,6 @@ function initMenu() {
     const toppingFour = document.createElement('li');
     toppingFour.textContent = 'Prawns';
     
-        
-    content.appendChild(header);
-    navigation.append(homeItem, menuItem, contactItem);
-    content.appendChild(navigation);
     leftTop.appendChild(foodHeader);
     foodList.appendChild(foodOne);
     foodList.appendChild(foodOneDetail);
