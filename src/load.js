@@ -11,7 +11,7 @@ function initLoad() {
     header.textContent = 'Puurfect Plate';
 
     const navigation = document.createElement('ul');
-    navigation.className = 'flex-container';
+    navigation.className = 'flex-container navigation';
     const homeItem = document.createElement('li');
     const menuItem = document.createElement('li');
     const contactItem = document.createElement('li');
